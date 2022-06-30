@@ -14,9 +14,18 @@
 ### Installation
 * Clone this repository and switch to the cloned repository's directory.
     using git clone https://github.com/nadduli/fastApi.git
-> cd fastApi
-> code . to open the project using Vscode
+* cd fastApi
+* code . to open the project using Vscode
 
+* Activate Pylance Extension on VS Code IDE
 * Install the fastApi packages using yarn install or npm install.
+* python3 -m venv env
+* source ./env/bin/activate
+* python -m pip install --upgrade pip
+* pip install -r requirements.txt
+
+### Launch the fastApi using
+* uvicorn app.main:app --reload 
+* visit the localhost and test the application using json format
 
 
